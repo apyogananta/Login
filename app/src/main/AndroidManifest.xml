@@ -15,11 +15,17 @@
         android:theme="@style/Theme.Login"
         tools:targetApi="31">
         <activity
-            android:name=".TambahMahasiswaActivity"
+            android:name=".ForexMainActivity"
             android:exported="false" />
         <activity
+            android:name=".TampilMahasiswaActivity"
+            android:label="Tambah Mahasiswa" />
+        <activity
+            android:name=".TambahMahasiswaActivity"
+            android:label="Mahasiswa" />
+        <activity
             android:name=".MenuActivity"
-            android:exported="false" />
+            android:label="Menu" />
         <activity
             android:name=".MainActivity"
             android:exported="true">

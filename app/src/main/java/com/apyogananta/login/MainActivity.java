@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 _id = _idEditText.getText().toString();
                 _password = _passwordEditText.getText().toString();
-                _url = "http://stmikpontianak.net/011100862/login.php?id=" + _id + "&password=" + _password;
+                _url = "https://stmikpontianak.net/011100862/login.php?id=" + _id + "&password=" + _password;
 
                 AsyncHttpClient asyncHttpClient = new AsyncHttpClient();
 
